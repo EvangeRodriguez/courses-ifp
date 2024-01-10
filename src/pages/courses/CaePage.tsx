@@ -1,7 +1,10 @@
+import Cae from "../../components/Cae/Cae";
 
 
 export default function CaePage() {
   return (
-    <div>CaePage</div>
+    <div>
+      <Cae />
+    </div>
   )
 }

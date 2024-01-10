@@ -1,7 +1,12 @@
 
+import Asir from "../../components/Asir/Asir";
+
+
 
 export default function AsirPage() {
   return (
-    <div>AsirPage</div>
+    <>
+    <Asir/>
+    </>
   )
 }

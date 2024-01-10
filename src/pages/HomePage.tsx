@@ -1,9 +1,4 @@
 import { Link } from 'react-router-dom'
-import Afi from '../components/Afi/Afi'
-import Asir from '../components/Asir/Asir'
-import Cae from '../components/Cae/Cae'
-import Ci from '../components/ComInt/Ci'
-import Dam from '../components/Dam/Dam'
 import Das from '../components/Das/Das'
 import Daw from '../components/Daw/Daw'
 import Dj from '../components/Dj/Dj'
@@ -28,11 +23,24 @@ export default function HomePage() {
         A3D - ANIMACIÓN 3D y JUEGOS INTERACTIVOS
             </Link>
             </div>
-      <div className= "afi"> <Afi /></div>
-      <div className= "asir"> <Asir /></div>
-      <div className= "cae"> <Cae /></div>
-      <div className= "ci"> <Ci /></div>
-      <div className= "dam"> <Dam /></div>
+      <div className= "afi"> <Link to='/afi'>
+      AI - ADMINISTRACIÓN Y FINANZAS
+            </Link>
+      </div>
+      <div className= "asir"> 
+      <Link to='/asir'>
+      ASIR - ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED CON PERFIL CIBERSEGURIDAD
+            </Link>
+            </div>
+      <div className= "cae"> <Link to='/cae'>
+        CAE - AUXILIAR DE ENFERMERÍA
+            </Link></div>
+      <div className= "ci"> <Link to='/ci'>
+      CI - COMERCIO INTERNACIONAL
+            </Link></div>
+      <div className= "dam">   <Link to='/dam'>
+        DAM - DESARROLLO DE APLICACIONES MULTIPLATAFORMA
+            </Link></div>
       <div className= "das"> <Das /></div>
       <div className= "daw"> <Daw /></div>
       <div className= "dj"> <Dj /></div>
