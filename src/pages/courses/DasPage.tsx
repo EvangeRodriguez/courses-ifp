@@ -1,7 +1,10 @@
+import Das from "../../components/Das/Das";
 
 
 export default function DasPage() {
   return (
-    <div>DasPage</div>
+    <div> 
+   <Das />
+    </div>
   )
 }

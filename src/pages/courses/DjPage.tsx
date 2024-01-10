@@ -1,7 +1,10 @@
+import Dj from "../../components/Dj/Dj";
 
 
 export default function DjPage() {
   return (
-    <div>DjPage</div>
+    <div>
+      <Dj />
+    </div>
   )
 }

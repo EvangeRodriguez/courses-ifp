@@ -1,7 +1,10 @@
+import Gad from "../../components/Gad/Gad";
 
 
 export default function GadPage() {
   return (
-    <div>GadPage</div>
+    <div>
+      <Gad />
+    </div>
   )
 }

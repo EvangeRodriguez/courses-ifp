@@ -1,7 +1,11 @@
+import Daw from "../../components/Daw/Daw";
 
 
 export default function DawPage() {
   return (
-    <div>DawPage</div>
+    <div>
+      <Daw />
+      </div>
   )
 }
+ 

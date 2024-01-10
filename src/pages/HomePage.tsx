@@ -1,24 +1,8 @@
 import { Link } from 'react-router-dom'
-import Das from '../components/Das/Das'
-import Daw from '../components/Daw/Daw'
-import Dj from '../components/Dj/Dj'
-import Edi from '../components/Edi/Edi'
-import Gad from '../components/Gad/Gad'
-import Hb from '../components/Hb/Hb'
-import Iabg from '../components/Iabg/Iabg'
-import Mkp from '../components/Mkp/Mkp'
-import Pro from '../components/Pro/Pro'
-import Rea from '../components/Rea/Rea'
-import Smx from '../components/Smx/Smx'
-import Tyl from '../components/Tyl/Tyl'
-import Vdj from '../components/Vdj/Vdj'
-
- 
- 
 
 export default function HomePage() {
   return (
-    <div>
+    <div className='courses'>
       <div className= "a3d">  <Link to='/a3d'>
         A3D - ANIMACIÓN 3D y JUEGOS INTERACTIVOS
             </Link>
@@ -33,7 +17,7 @@ export default function HomePage() {
             </Link>
             </div>
       <div className= "cae"> <Link to='/cae'>
-        CAE - AUXILIAR DE ENFERMERÍA
+        CAE - CUIDADOS AUXILIARES DE ENFERMERÍA
             </Link></div>
       <div className= "ci"> <Link to='/ci'>
       CI - COMERCIO INTERNACIONAL
@@ -41,19 +25,48 @@ export default function HomePage() {
       <div className= "dam">   <Link to='/dam'>
         DAM - DESARROLLO DE APLICACIONES MULTIPLATAFORMA
             </Link></div>
-      <div className= "das"> <Das /></div>
-      <div className= "daw"> <Daw /></div>
-      <div className= "dj"> <Dj /></div>
-      <div className= "edi"> <Edi /></div>
-      <div className= "gad"> <Gad /></div>
-      <div className= "hb"> <Hb /></div>
-      <div className= "iabg"> <Iabg /></div>
-      <div className= "mkp"> <Mkp /></div>
-      <div className= "pro"> <Pro /></div>
-      <div className= "rea"> <Rea /></div>
-      <div className= "smx"> <Smx /></div>
-      <div className= "tyl"> <Tyl /></div>
-      <div className= "vdj"> <Vdj /></div>
+      <div className= "das">   <Link to='/das'>
+        DAS - DOCUMENTACIÓN y ADMINISTRACIÓN  SANITARIA
+            </Link></div>
+      <div className= "daw"> 
+      <Link to='/daw'>
+        DAW - DESARROLLO DE APLICACIONES WEB
+            </Link>
+      </div>
+      <div className= "dj"> 
+      <Link to='/dj'>
+        DJ - VIDEO DISC-JOCKY Y SONIDO
+            </Link>
+      </div>
+      <div className= "edi"> <Link to='/edi'>
+        EDI - EDUCACIÓN INFANTIL
+            </Link></div>
+      <div className= "gad">   <Link to='/gad'>
+        GAD - GESTIÓN ADMINISTRATIVA
+            </Link> </div>
+      <div className= "hb">   <Link to='/hb'>
+        HB - HIGIENE BUCODENTAL
+            </Link></div>
+      <div className= "iabg">   <Link to='/iabg'>
+        IABG - INTELIGENCIA ARTIFICIAL Y BIG DATA 
+            </Link> </div>
+      <div className= "mkp">  <Link to='/mkp'>
+        MKP - MARKETING Y PUBLICIDAD
+            </Link></div>
+      <div className= "pro">  <Link to='/pro'>
+        PRO - PRODUCCIÓN DE AUDIOVISUALES Y ESPECTÁCULOS
+            </Link></div>
+      <div className= "rea">      <Link to='/rea'>
+        REA - REALIZACIÓN DE PROYECTOS AUDIOVISUALES Y ESPECTÁCULOS
+            </Link></div>
+      <div className= "smx">  <Link to='/smx'>
+             SMX - SISTEMAS MICROINFORMÁTICOS Y RED
+            </Link></div>
+      <div className= "tyl">    <Link to='/tyl'>
+         TYL - TRANSPORTE Y LOGISTICA
+            </Link></div>
+      <div className= "vdj"> <Link to='/vdj'>
+          VDJ - DESARROLLO DE APLICACIONES MULTIPLATAFOMA CON PERFIL VIDEOJUEGO Y OCIO DIGITAL   </Link></div>
 
     </div>
   )

@@ -1,7 +1,10 @@
+import Hb from "../../components/Hb/Hb";
 
 
 export default function HbPage() {
   return (
-    <div>HbPage</div>
+    <div>
+      <Hb />
+    </div>
   )
 }

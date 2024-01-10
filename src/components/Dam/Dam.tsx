@@ -4,7 +4,7 @@ export default function Dam() {
   return (
     <div>
        <h1>
-        <Link to='https://www.ifp.es/fp-barcelona/ciberseguridad' target='_blank'>  
+        <Link to='https://www.ifp.es/fp-barcelona/desarrollo-de-aplicaciones-multiplataforma' target='_blank'>  
         DAM - DESARROLLO DE APLICACIONES MULTIPLATAFORMA 
         </Link>
             </h1>
@@ -22,3 +22,4 @@ export default function Dam() {
     </div>
   )
 }
+ 

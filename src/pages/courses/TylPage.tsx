@@ -1,7 +1,10 @@
+import Tyl from "../../components/Tyl/Tyl";
 
 
 export default function TylPage() {
   return (
-    <div>TylPage</div>
+    <div>
+      <Tyl />
+    </div>
   )
 }

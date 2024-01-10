@@ -1,7 +1,10 @@
+import Iabg from "../../components/Iabg/Iabg";
 
 
 export default function IabgPage() {
   return (
-    <div>IabgPage</div>
+    <div>
+      <Iabg />
+    </div>
   )
 }

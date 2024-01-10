@@ -1,25 +1,33 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
   box-sizing: border-box;
   text-transform: none;
   overflow: hidden;
 }
 
-/* :root {
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  background: #2F303A;
-}
-
 h1 {
-  font-size: 36.8px;
+  font-size: 25px;
 }
 
+h2 {
+  font-size: 15px;
+}
 p {
-  font-size: 19.2px;
+  font-size: 12px;
 }
 
 .body {
   margin: auto;
-} */
+}
+
+ :root {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.courses{
+  font-size: 18px;
+  line-height: 1.5
+  
+}

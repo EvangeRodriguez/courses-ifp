@@ -4,8 +4,8 @@ export default function Cae() {
   return (
     <div>
         <h1>
-        <Link to='https://www.ifp.es/fp-barcelona/ciberseguridad' target='_blank'>  
-        CAE - AUXILIAR DE ENFERMERÍA
+        <Link to='https://www.ifp.es/012023/cuidados-auxiliares-de-enfermeria' target='_blank'>  
+        CAE - CUIDADOS AUXILIARES DE ENFERMERÍA
         </Link>
             </h1>
     <div className='info'> 
